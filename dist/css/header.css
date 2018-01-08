@@ -1,0 +1,94 @@
+.header {
+  background-color: #000000;
+  padding: 15px 0; }
+
+.main-logo {
+  width: 50px;
+  height: 38px;
+  background-image: url(../img/logo_2.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.main-menu {
+  display: block; }
+
+.header-close {
+  width: 20px;
+  height: 20px;
+  background-image: url(../img/close1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer; }
+
+.main-menu__link {
+  font-family: 'Arciform';
+  color: #f48e00;
+  font-size: 15px;
+  font-weight: 400;
+  display: block;
+  padding: 8px 10px;
+  transition: all 0.5s; }
+  .main-menu__link:hover, .main-menu__link.active {
+    transition: all 0.5s;
+    color: #000;
+    background-color: #f48e00; }
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.main-menu__list {
+  display: flex; }
+
+.main-menu__item {
+  display: inline-block;
+  border: 1px solid #ff9500;
+  margin-left: -1px; }
+  .main-menu__item:first-child {
+    margin-left: 0;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px; }
+  .main-menu__item:last-child {
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px; }
+
+.mobile-menu__icon {
+  display: none; }
+
+.mobile-menu__line {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background: #ff9500;
+  transition: all 0.5s; }
+  .mobile-menu__line.top {
+    position: relative;
+    top: -6px;
+    transition: all 0.5s; }
+  .mobile-menu__line.bottom {
+    position: relative;
+    bottom: -6px;
+    transition: all 0.5s; }
+  .mobile-menu__line.middle {
+    opacity: 1;
+    transition: all 0.5s; }
+
+.mobile-menu__icon {
+  cursor: pointer;
+  display: none; }
+  .mobile-menu__icon.active .mobile-menu__line {
+    transition: all 0.5s; }
+    .mobile-menu__icon.active .mobile-menu__line.middle {
+      opacity: 0;
+      transition: all 0.5s; }
+    .mobile-menu__icon.active .mobile-menu__line.top {
+      transform: rotate(45deg);
+      top: 3px;
+      transition: all 0.5s; }
+    .mobile-menu__icon.active .mobile-menu__line.bottom {
+      transform: rotate(-45deg);
+      bottom: 3px;
+      transition: all 0.5s; }

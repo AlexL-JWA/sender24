@@ -1,0 +1,78 @@
+.black-list__block {
+  border-radius: 16px;
+  border: 1px solid #969696;
+  background-color: #ffffff;
+  padding: 13px 0;
+  height: 370px;
+  margin-bottom: 15px;
+  overflow-y: auto; }
+
+.black-list__item {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 5px 40px 5px 12px;
+  transition: all 0.5s; }
+  .black-list__item:hover, .black-list__item.active {
+    background-color: #e5e5ea;
+    transition: all 0.5s; }
+    .black-list__item:hover .black-list__item-delete, .black-list__item.active .black-list__item-delete {
+      opacity: 1;
+      transition: all 0.5s; }
+
+.black-list__block .mCSB_inside > .mCSB_container {
+  margin-right: 0;
+  top: 0 !important; }
+
+.black-list__block .mCSB_dragger_bar {
+  background-color: transparent; }
+
+.black-list__block .mCSB_scrollTools .mCSB_draggerRail {
+  background-color: transparent;
+  margin: 0 auto;
+  width: 2px; }
+
+.black-list__block .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+  background-color: #969696; }
+
+.black-list__block .mCSB_dragger {
+  width: 6px;
+  border-radius: 4px; }
+
+.black-list__block .mCSB_scrollTools {
+  opacity: 1; }
+
+.black-list__user-icon {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  margin-right: 20px; }
+  .black-list__user-icon i {
+    vertical-align: middle;
+    color: #969696;
+    font-size: 30px; }
+
+.black-list__notice {
+  font-family: 'Arciform';
+  color: #95989a;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 35px;
+  padding-left: 20px; }
+
+.black-list__item-delete {
+  width: 16px;
+  height: 16px;
+  background-image: url(../img/close.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  opacity: 0;
+  transition: all 0.5s; }
+
+.black-list-btn {
+  margin-bottom: 20px;
+  margin-left: 20px; }
+  .black-list-btn:first-child {
+    margin-left: 0; }

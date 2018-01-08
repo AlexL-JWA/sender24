@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" /> </head>
+
+<body>
+   <section class="main-section">
+    <form action="">
+        <div class="main-page__filter-block">
+            <div class="container">
+                <h2 class="text-center page-title">Фильтры</h2>
+                <div class="main-page__filter-top-block">
+                   <div class="row">
+                    <div class="col-sm-4 filter-top-select-block">
+                        <div class="filter-select-title">Выбор страны</div>
+                        <div class="dropdown filter-dropdown">
+                          <div class="select dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" data-options="Select">
+                               Выбрать
+                            <span class="caret"></span>
+                          </div>
+                          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1" tabindex="1">
+                              <li class="hide">Выбрать</li>
+                              <li>США</li>
+                              <li>Великобритания</li>
+                              <li>Канада</li>
+                              <li>Австралия</li>
+                              <li>Бельгия</li>
+                              <li>Дания</li>
+                              <li>Франция</li>
+                              <li>Италия</li>
+                              <li>Норвегия</li>
+                              <li>Россия</li>
+                              <li>Швеция</li>
+                              <li>Украина</li>
+                              <li>Афганистан</li>
+                              <li>Албания</li>
+                              <li>Алжир</li>
+                              <li>Самоа</li>
+                              <li>Андорра</li>
+                              <li>Ангола</li>
+
+                          </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 filter-top-select-block">
+                        <div class="filter-select-title">Возраст</div>
+                        <div class="age-select-block">
+                           <div class="dropdown filter-dropdown">
+                          <div class="select dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" data-options="Select">
+                               18
+                            <span class="caret"></span>
+                          </div>
+                          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1" tabindex="1">
+                              <li class="hide">18</li>
+                              <li>19</li>
+                              <li>20</li>
+                              <li>21</li>
+
+                          </ul>
+                        </div>
+
+                            <div class="filter-range-text">до</div>
+                            <div class="dropdown to-select filter-dropdown">
+                          <div class="select dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" data-options="Select">
+                              65
+                            <span class="caret"></span>
+                          </div>
+                          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1" tabindex="1">
+
+                              <li>63</li>
+                              <li>64</li>
+                              <li>65</li>
+
+                          </ul>
+                        </div>
+                       </div>
+                    </div>
+                    <div class="col-sm-4 filter-top-select-block">
+                        <div class="filter-select-title">Отправлять</div>
+                         <div class="dropdown filter-dropdown">
+                          <div class="select dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" data-options="Select">
+                               Всем
+                            <span class="caret"></span>
+                          </div>
+                          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1" tabindex="1">
+                              <li class="hide">Всем</li>
+                              <li>Онлайн</li>
+
+
+                          </ul>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="main-page__filter-bottom-block">
+                   <div class="row">
+                    <div class="col-6 col-sm-4 col-md-4 d-flex align-items-center justify-content-end justify-content-sm-start">
+                        <div class="checkbox-block">
+                            <input type="checkbox" id="online-checkbox" name="filter-block" checked="checked">
+                            <label for="online-checkbox"><span><i class="icon-checked"></i></span></label>
+                        </div>
+                        <label class="checkbox-label" for="online-checkbox">Только онлайн</label>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-4 d-flex align-items-center justify-content-start">
+                        <div class="checkbox-block">
+                            <input type="checkbox" id="with-photo" name="filter-block">
+                            <label for="with-photo"><span><i class="icon-checked"></i></span></label>
+                        </div>
+                        <label class="checkbox-label" for="with-photo">С фото</label>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-page__message-block">
+            <div class="container">
+                <h2 class="text-center page-title">Сообщение</h2>
+                <div class="row">
+                <div class="col-12 message-block">
+                    <textarea name="" id="" cols="30" rows="10" class="message-textarea" placeholder="Привет!"></textarea>
+                    <div class="message-block__bottom add-file-block d-flex justify-content-between align-items-center">
+                        <div class="message-block__add">
+                            <input type="file" id="add-file" class="add-file-input">
+                            <label for="add-file"> <span class="message-block__add-text">Прикрепить</span> <span class="message-block__add-icon"><i class="icon-clip"></i></span> </label>
+                        </div>
+                        <div class="message-block__add-right">
+                            <div class="message-block__add-photo">
+                                <div class="message-block__file-name" id="message-block__file-name">0123456.jpg</div> <a href="" class="btn gold-btn big-btn add-photo__download-btn">
+                                           Загрузить / Удалить
+                                        </a> </div>
+                            <div class="message-block__add-preview"> <img src="#" alt="" class="message__img-preview" id="preview-img"> </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-start align-items-center sending-limit">
+                        <div class="small-select-title">Лимит отправки</div>
+                         <div class="dropdown filter-dropdown">
+                          <div class="select dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" data-options="Select">
+                               100
+                            <span class="caret"></span>
+                          </div>
+                          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1" tabindex="1">
+                              <li class="hide">1000</li>
+                              <li>2000</li>
+                              <li>3000</li>
+                              <li>4000</li>
+
+                          </ul>
+                        </div>
+                    </div>
+                </div>
+                      <a href="" class="btn blue-btn small-btn message-start-btn">
+                            Начать
+                       </a> <a href="" class="btn pink-btn small-btn message-stop-btn">
+                            Остановить
+                       </a>
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-start align-items-center">
+                        <div class="small-select-title">Дней до конца активации</div>
+                        <div class="days-count-block"> 42 </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+
+    </section>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/bild.js"></script>
+
+
+</body>
+
+</html>

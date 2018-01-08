@@ -1,0 +1,100 @@
+.statistics-men {
+  width: 55%; }
+
+.statistics-list-header > div {
+  padding: 10px 15px; }
+
+.statistics-list-wrapper .history-list-header > div {
+  padding: 10px; }
+
+.statistics-main-block {
+  padding-top: 15px; }
+
+.statistics-dates-block {
+  margin-bottom: 15px; }
+
+.statistics-item {
+  font-family: 'OpenSans';
+  color: #000000;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.2; }
+  .statistics-item div {
+    padding: 10px 15px; }
+  .statistics-item:nth-child(even) {
+    background: #e5e5ea; }
+
+.statistics-list .statistics-men {
+  border-right: 1px solid #969696; }
+
+.date-select {
+  box-shadow: 0px 1px 5.82px 0.18px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  height: 32px;
+  border: 1px solid #95989A;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  display: block;
+  line-height: 30px;
+  padding: 0 10px;
+  background: #fff;
+  cursor: pointer;
+  font-family: 'OpenSans';
+  color: #969696;
+  font-size: 17px;
+  font-weight: 400;
+  outline: none; }
+  .date-select.selected {
+    color: #000; }
+
+.form-control:focus {
+  box-shadow: 0px 1px 5.82px 0.18px rgba(0, 0, 0, 0.15);
+  border: 1px solid #95989A; }
+
+.select-date-input {
+  position: relative; }
+  .select-date-input:after {
+    content: '\004f';
+    position: absolute;
+    top: calc(50% + 1px/2);
+    right: 10px;
+    transform: translate(-100%, -50%);
+    display: inline-block;
+    font-family: 'custom';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    color: #000; }
+
+.statistics-dates-block span {
+  font-family: 'Arciform';
+  color: #000000;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 0 10px; }
+
+.statistics-list-header {
+  background: linear-gradient(180deg, #ffffff 0%, #f5f4f5 17%, #d6d3d6 100%);
+  border-bottom: 1px solid #969696; }
+
+.statistics-list-header {
+  position: relative;
+  margin: 0; }
+  .statistics-list-header div {
+    border-right: 1px solid #969696; }
+    .statistics-list-header div:last-child {
+      border-right: none; }
+  .statistics-list-header .history-list-header-stub {
+    position: absolute;
+    display: none;
+    width: 30px;
+    right: 0;
+    top: 0; }
+
+.statistics-item {
+  margin: 0; }
+
+.statistics-list {
+  min-height: 100px;
+  overflow-y: auto; }

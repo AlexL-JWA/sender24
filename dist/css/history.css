@@ -1,0 +1,48 @@
+.history-main-block {
+  padding-top: 30px; }
+
+.time-sending {
+  width: 130px; }
+
+.send-count, .answer-count {
+  width: 80px; }
+
+.history-text {
+  width: calc(100% - 130px - 160px);
+  padding: 10px; }
+
+.history-item {
+  font-family: 'OpenSans';
+  color: #000000;
+  font-size: 14px;
+  font-weight: 400;
+  display: flex;
+  line-height: 1.2;
+  position: relative; }
+  .history-item:nth-child(even) {
+    background-color: #e5e5ea; }
+  .history-item > div {
+    padding: 10px 4px;
+    border-left: 1px solid #969696; }
+    .history-item > div:first-child {
+      border-left: none; }
+
+.history__item-delete {
+  position: absolute;
+  top: 12px;
+  right: 5px;
+  width: 12px;
+  height: 12px;
+  background-image: url(../img/close2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer; }
+
+.history-list {
+  min-height: 100px;
+  overflow-y: auto; }
+
+.history-list-header-stub {
+  width: 30px;
+  border-left: none !important; }
